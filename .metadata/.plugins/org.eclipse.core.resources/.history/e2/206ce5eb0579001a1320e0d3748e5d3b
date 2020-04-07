@@ -1,0 +1,5 @@
+package com.shail.location.service;
+
+public interface LocationService {
+
+}

@@ -1,0 +1,5 @@
+package com.shail.customer.dal.entities;
+
+public class Customer {
+
+}

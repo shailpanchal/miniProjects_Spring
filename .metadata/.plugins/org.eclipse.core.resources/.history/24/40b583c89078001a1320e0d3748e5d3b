@@ -1,0 +1,5 @@
+package com.shail.student.dal.entities;
+
+public class Student {
+
+}

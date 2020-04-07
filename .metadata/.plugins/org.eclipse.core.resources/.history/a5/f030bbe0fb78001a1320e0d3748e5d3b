@@ -1,0 +1,54 @@
+package com.shail.customer.dal;
+
+import java.util.Optional;
+
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import com.shail.customer.dal.entities.Customer;
+import com.shail.customer.dal.repos.CustomerRepository;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+class CustomerdalApplicationTests {
+	
+	@Autowired
+	private CustomerRepository customerRepository;
+	
+	@Test
+	public void testCreateCustomer() {
+		Customer customer = new Customer();
+		customer.setName("Customer1");
+		customer.setEmail("customer@gmail.com");
+		
+		customerRepository.save(customer);
+	}
+	
+	@Test
+	public void testFindCustomerbyID() {
+		Optional<Customer> optionalCustomer = customerRepository.findById(1l);
+		if(optionalCustomer.isPresent()) {
+			Customer customer = optionalCustomer.get();
+			System.out.println( customer.toString() );
+		} else {
+			System.out.println( "Customer not present in table" );
+		}
+	}
+	
+	@Test
+	public void testUpdateCustomer() {
+		Optional<Customer> optionalCustomer = customerRepository.findById(1l);
+		if(optionalCustomer.isPresent()) {
+			Customer customer = optionalCustomer.get();
+			customer.setEmail("chnagedEmail@gmail.com");
+			customerRepository.save(customer);
+			System.out.println( customer.toString() );
+		} else {
+			System.out.println( "Customer not present in table" );
+		}
+	}
+
+}
