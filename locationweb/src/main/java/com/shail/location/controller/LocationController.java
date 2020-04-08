@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,12 +11,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.shail.location.entities.Location;
 import com.shail.location.service.LocationService;
+import com.shail.location.util.EmailUtil;
 
 @Controller
 public class LocationController {
 	
 	@Autowired
 	LocationService service;
+	
+	@Autowired
+	EmailUtil emailUtil;
 	
 	@RequestMapping("/showCreate")
 	public String showCreate() {
@@ -29,6 +32,7 @@ public class LocationController {
 		Location locationSaved = service.saveLocation(location);
 		String msg = "Location saved with id: "+locationSaved.getId();
 		modelmap.addAttribute("msg", msg); //this is keyValue pair means wherever we use ${msg} it will show the msg
+		emailUtil.sendEmail("shailpanchal.root@gmail.com", "Location saved", "Location saved succesfully and about to send response");
 		return "createLocation";
 	}
 	
