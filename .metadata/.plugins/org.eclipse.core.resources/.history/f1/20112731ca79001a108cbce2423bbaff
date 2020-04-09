@@ -1,0 +1,5 @@
+package com.shail.location.util;
+
+public interface ReportUtil {
+
+}

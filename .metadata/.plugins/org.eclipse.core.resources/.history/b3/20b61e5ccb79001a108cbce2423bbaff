@@ -1,0 +1,22 @@
+package com.shail.location.util;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.jfree.chart.ChartFactory;
+import org.jfree.data.general.DefaultPieDataset;
+import org.jfree.data.general.PieDataset;
+
+public class ReportUtilImple implements ReportUtil {
+
+	@Override
+	public void generatePieChart(String path, List<Object[]> data) {
+		DefaultPieDataset dataset = new DefaultPieDataset();
+		
+		for (Object[] objects : data) {
+			dataset.
+		}
+		ChartFactory.createPieChart3D("Location type Report", dataset, false, false, false);
+	}
+
+}

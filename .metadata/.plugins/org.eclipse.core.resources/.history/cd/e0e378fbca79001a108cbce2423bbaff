@@ -1,0 +1,13 @@
+package com.shail.location.util;
+
+import java.util.List;
+
+public class ReportUtilImple implements ReportUtil {
+
+	@Override
+	public void generatePieChart(String path, List<Object[]> data) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

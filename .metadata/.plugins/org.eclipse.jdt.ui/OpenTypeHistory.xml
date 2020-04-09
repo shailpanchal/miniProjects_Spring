@@ -3,4 +3,5 @@
 <typeInfo handle="=studentdal/D:\/Users\/shail.panchal\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.2.6.RELEASE\/spring-data-commons-2.2.6.RELEASE.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-commons=/=/maven.version=/2.2.6.RELEASE=/=/maven.scope=/compile=/&lt;org.springframework.data.repository(CrudRepository.class[CrudRepository" modifiers="1537" timestamp="1586236587327"/>
 <typeInfo handle="=locationweb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shail.location.service{LocationService.java[LocationService" modifiers="513" timestamp="1586287692784"/>
 <typeInfo handle="=locationweb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shail.location.util{EmailUtil.java[EmailUtil" modifiers="513" timestamp="1586357593068"/>
+<typeInfo handle="=locationweb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shail.location.util{ReportUtil.java[ReportUtil" modifiers="513" timestamp="1586371990332"/>
 </typeInfoHistroy>
