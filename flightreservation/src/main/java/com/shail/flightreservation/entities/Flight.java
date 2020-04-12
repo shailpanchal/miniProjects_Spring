@@ -4,15 +4,22 @@ package com.shail.flightreservation.entities;
 import java.sql.Timestamp;
 import java.util.Date;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 
 @Entity
 public class Flight extends AbstractEntity {
+	@Column(name="FLIGHT_NUMBER")
 	private String flightNumber;
-	private String operatingAirline;
+	@Column(name="OPERATING_AIRLINES")
+	private String operatingAirlines;
+	@Column(name="DEPARTURE_CITY")
 	private String departureCity;
+	@Column(name="ARRIVAL_CITY")
 	private String arrivalCity;
+	@Column(name="DATE_OF_DEPARTURE")
 	private Date dateOfDeparture;
+	@Column(name="ESTIMATED_DEPARTURE_TIME")
 	private Timestamp estimatedDepartureTime;
 
 	public String getFlightNumber() {
@@ -21,11 +28,12 @@ public class Flight extends AbstractEntity {
 	public void setFlightNumber(String flightNumber) {
 		this.flightNumber = flightNumber;
 	}
-	public String getOperatingAirline() {
-		return operatingAirline;
+	
+	public String getOperatingAirlines() {
+		return operatingAirlines;
 	}
-	public void setOperatingAirline(String operatingAirline) {
-		this.operatingAirline = operatingAirline;
+	public void setOperatingAirlines(String operatingAirlines) {
+		this.operatingAirlines = operatingAirlines;
 	}
 	public String getDepartureCity() {
 		return departureCity;
