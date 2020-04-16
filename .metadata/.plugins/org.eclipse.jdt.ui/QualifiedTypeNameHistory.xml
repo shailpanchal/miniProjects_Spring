@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.ui.Model"/>
-<fullyQualifiedTypeName name="org.springframework.mail.javamail.JavaMailSenderImpl"/>
-<fullyQualifiedTypeName name="org.springframework.mail.javamail.MimeMessageHelper"/>
-<fullyQualifiedTypeName name="com.shail.location.util.EmailUtil"/>
 <fullyQualifiedTypeName name="org.jfree.chart.ChartFactory"/>
 <fullyQualifiedTypeName name="org.jfree.data.general.DefaultPieDataset"/>
 <fullyQualifiedTypeName name="org.jfree.chart.ChartUtilities"/>
 <fullyQualifiedTypeName name="java.lang.Double"/>
 <fullyQualifiedTypeName name="javax.servlet.ServletContext"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
 <fullyQualifiedTypeName name="com.shail.location.util.ReportUtil"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PutMapping"/>
@@ -39,25 +34,30 @@
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="jdk.jfr.FlightRecorder"/>
 <fullyQualifiedTypeName name="com.shail.flightreservation.entities.Flight"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
 <fullyQualifiedTypeName name="com.shail.flightreservation.dto.ReservationRequest"/>
 <fullyQualifiedTypeName name="com.shail.flightreservation.repos.FlightRepository"/>
 <fullyQualifiedTypeName name="com.shail.flightreservation.entities.Passenger"/>
 <fullyQualifiedTypeName name="com.shail.flightreservation.repos.PassengerRepository"/>
 <fullyQualifiedTypeName name="com.shail.flightreservation.services.ReservationService"/>
-<fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
 <fullyQualifiedTypeName name="javax.websocket.server.ServerEndpoint"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
 <fullyQualifiedTypeName name="com.shail.flightreservation.entities.Reservation"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 <fullyQualifiedTypeName name="com.shail.flightreservation.repos.ReservationRepository"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
+<fullyQualifiedTypeName name="com.shail.flightcheckin.integration.dto.Reservation"/>
+<fullyQualifiedTypeName name="org.springframework.web.client.RestTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="com.shail.flightcheckin.integration.ReservationRestClient"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="org.springframework.ui.ModelMap"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="com.shail.flightcheckin.integration.dto.ReservationUpdateRequest"/>
 </qualifiedTypeNameHistroy>

@@ -5,4 +5,5 @@
 <typeInfo handle="=locationweb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shail.location.util{EmailUtil.java[EmailUtil" modifiers="513" timestamp="1586357593068"/>
 <typeInfo handle="=locationweb/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shail.location.util{ReportUtil.java[ReportUtil" modifiers="513" timestamp="1586375475708"/>
 <typeInfo handle="=flightreservation/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shail.flightreservation.services{ReservationService.java[ReservationService" modifiers="513" timestamp="1586669149201"/>
+<typeInfo handle="=flightcheckin/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.shail.flightcheckin.integration{ReservationRestClient.java[ReservationRestClient" modifiers="513" timestamp="1586713214335"/>
 </typeInfoHistroy>
